@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    box-shadow: 0px 2px 15px rgb(189, 189, 189);
+    margin: 0;
+    height: 80px;
+}
+
+nav h4 {
+    margin: 0;
+    margin-top: 25px;
+    font-size: 1.6rem;
+    color: #FF5A5F;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav img {
+    height: 80px;
+    width: 80px;
+}
+
+.photogrid{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.text {
+    margin: 0;
+    margin-right: 20px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1 {
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.text p {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.card {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin-left: 0px;
+}
+.card img {
+    border-radius: 15px;
+    height: 370px;
+    width: 270px;
+}
+.info {
+    display: flex;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.cost span {
+    font-weight: 300;
+}
+.info h3 {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.info li {
+    margin-top: 6px;
+}
+.bio {
+    font-size: 1.036rem;
+}
+
+.info li::marker {
+    color: #FE395C;
+}
+.rating span {
+    color: #FE395C;
+}
+.price h3 {
+    margin-top: 5px;
+}
+.price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+.cardbadge {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: white;
+    transition: all 0.1s ease;
+}
+
+.cardbadge:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.cardbadge p {
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
